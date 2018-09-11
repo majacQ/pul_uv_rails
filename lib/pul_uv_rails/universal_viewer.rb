@@ -7,6 +7,10 @@ module PulUvRails
       def script_tag
         @script_tag ||= instance.script_tag
       end
+
+      def viewer_src
+        @viewer_src ||= instance.viewer_src
+      end
     end
 
     # Hopefully outdated UV2 methods
