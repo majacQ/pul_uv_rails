@@ -38,7 +38,7 @@ module PulUvRails
     end
 
     def viewer_src
-      
+      "/#{viewer_root_v3}/uv.html".html_safe
     end
 
     private
