@@ -34,7 +34,7 @@ module PulUvRails
     # Experimental UV3 methods
 
     def viewer_root_v3
-      'universalviewer/uv'
+      'universalviewer/dist/uv-3beta'
     end
 
     def viewer_src
