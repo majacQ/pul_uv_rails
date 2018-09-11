@@ -3,6 +3,7 @@
 #################
 
 lib
+src/lib/bundle.js
 src/lib/bundle.min.js
 !src/lib
 !src/extensions/**/lib
@@ -50,20 +51,23 @@ node_modules
 *.min.map
 !app.build.js
 !tasks/*.js
-!config.js
+/config.js
 !Gruntfile.js
 !gulpfile.js
 !src/lib/*.js
 !src/*/*/lib/*.js
 !src/extensions/*/dependencies.js
 !dist/**/*.js
+!src/helpers.js
+!dev.build.js
+!dist.build.js
 
 #################
 ## Build
 #################
 
-build/
-src/extensions/*/build
+.build/
+src/extensions/*/.build
 
 #################
 ## Dist

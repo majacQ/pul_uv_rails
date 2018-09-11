@@ -9,6 +9,8 @@ module PulUvRails
       end
     end
 
+    # Hopefully outdated UV2 methods
+
     def script_tag
       "<script type=\"text/javascript\" id=\"embedUV\" src=\"#{viewer_link}\"></script>".html_safe
     end
@@ -23,6 +25,16 @@ module PulUvRails
 
     def viewer_version
       PulUvRails::VERSION
+    end
+
+    # Experimental UV3 methods
+
+    def viewer_root_v3
+      'universalviewer/uv'
+    end
+
+    def viewer_src
+      "/#{viewer_root_v3}/uv.html"
     end
 
     private
