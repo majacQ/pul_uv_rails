@@ -7,6 +7,10 @@ module PulUvRails
       def viewer_src
         @viewer_src ||= instance.viewer_src
       end
+
+      def config_src 
+        @config_src ||= instance.config_src
+      end
     end
 
     def viewer_root
