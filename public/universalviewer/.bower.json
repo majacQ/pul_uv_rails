@@ -16,13 +16,14 @@
   ],
   "dependencies": {},
   "devDependencies": {},
-  "homepage": "https://github.com/UniversalViewer/universalviewer",
-  "_release": "26406e214c",
+  "homepage": "https://github.com/JuliaWinchester/universalviewer",
+  "_release": "0173cada51",
   "_resolution": {
-    "type": "commit",
-    "commit": "26406e214c50c4d8006b6c9682ccb093280ed260"
+    "type": "branch",
+    "branch": "gltf_draco",
+    "commit": "0173cada5197a32328c09d3d809e0458b3b9f246"
   },
-  "_source": "https://github.com/UniversalViewer/universalviewer.git",
-  "_target": "26406e214c50c4d8006b6c9682ccb093280ed260",
-  "_originalSource": "UniversalViewer/universalviewer"
+  "_source": "https://github.com/JuliaWinchester/universalviewer.git",
+  "_target": "gltf_draco",
+  "_originalSource": "JuliaWinchester/universalviewer"
 }

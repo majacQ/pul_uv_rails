@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "universalviewer": "UniversalViewer/universalviewer#26406e214c50c4d8006b6c9682ccb093280ed260"
+    "universalviewer": "JuliaWinchester/universalviewer#gltf_draco"
   }
 }
