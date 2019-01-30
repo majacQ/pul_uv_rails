@@ -10,7 +10,7 @@ module PulUvRails
     end
 
     def viewer_root
-      'universalviewer/dist/'
+      'universalviewer/dist'
     end
 
     def viewer_src
