@@ -17,6 +17,10 @@ module PulUvRails
       "/#{viewer_root}/uv.html".html_safe
     end
 
+    def config_src
+      "/#{viewer_root}/config.json".html_safe
+    end
+
     def viewer_version
       PulUvRails::VERSION
     end
