@@ -37,6 +37,7 @@ module.exports = function () {
         src: './src',
         themes: './src/themes',
         uv: 'uv',
+        uvAlephExtension: './src/extensions/uv-aleph-extension',
         uvAVExtension: './src/extensions/uv-av-extension',
         uvDefaultExtension: './src/extensions/uv-default-extension',
         uvMediaElementExtension: './src/extensions/uv-mediaelement-extension',
@@ -45,6 +46,6 @@ module.exports = function () {
         uvVirtexExtension: './src/extensions/uv-virtex-extension'
     };
     this.themes = {
-        
+
     }
 }
