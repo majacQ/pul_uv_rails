@@ -2,6 +2,7 @@ var configure = require('./tasks/configure');
 var theme = require('./tasks/theme');
 var c = require('./config');
 var config = new c();
+var alephExtensionConfig = require('./src/extensions/uv-aleph-extension/config');
 var avExtensionConfig = require('./src/extensions/uv-av-extension/config');
 var mediaelementExtensionConfig = require('./src/extensions/uv-mediaelement-extension/config');
 var pdfExtensionConfig = require('./src/extensions/uv-pdf-extension/config');
@@ -33,7 +34,7 @@ module.exports = function (grunt) {
             libs: [
                 config.directories.src + '/extensions/*/lib/**/*',
                 '!' + config.directories.src + '/extensions/*/lib/**/*.proxy.js'
-            ]           
+            ]
         },
 
         copy: {
@@ -151,8 +152,15 @@ module.exports = function (grunt) {
                         dest: config.directories.build + '/lib/'
                     },
                     // extension dependencies (needed to copy stencil js files in sub directories https://github.com/ionic-team/stencil/issues/683)
+                    // this should iterate over all extensions
                     {
                         cwd: 'src/extensions/uv-seadragon-extension/lib/',
+                        expand: true,
+                        src: ['**'],
+                        dest: config.directories.build + '/lib/'
+                    },
+                    {
+                        cwd: 'src/extensions/uv-aleph-extension/lib/',
                         expand: true,
                         src: ['**'],
                         dest: config.directories.build + '/lib/'
@@ -211,6 +219,7 @@ module.exports = function (grunt) {
             },
             npmComponents: {
                 files: [
+                    alephExtensionConfig.sync.dependencies,
                     avExtensionConfig.sync.dependencies,
                     mediaelementExtensionConfig.sync.dependencies,
                     pdfExtensionConfig.sync.dependencies,
