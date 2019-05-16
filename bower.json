@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "universalviewer": "JuliaWinchester/universalviewer#gltf_draco"
+    "universalviewer": "MorphoSource/universalviewer#al"
   }
 }
