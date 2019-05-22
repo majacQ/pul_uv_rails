@@ -17,11 +17,11 @@
   "dependencies": {},
   "devDependencies": {},
   "homepage": "https://github.com/MorphoSource/universalviewer",
-  "_release": "6c3fda0e07",
+  "_release": "c72f9a625c",
   "_resolution": {
     "type": "branch",
     "branch": "al",
-    "commit": "6c3fda0e07b4d77eb8789d55363e8c597d2ad252"
+    "commit": "c72f9a625c5f9d6f8b7ebb50af33b1c202f69817"
   },
   "_source": "https://github.com/MorphoSource/universalviewer.git",
   "_target": "al",

@@ -46,6 +46,6 @@ module.exports = function () {
         uvVirtexExtension: './src/extensions/uv-virtex-extension'
     };
     this.themes = {
-
+        
     }
 }

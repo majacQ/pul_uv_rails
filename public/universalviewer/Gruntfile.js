@@ -34,7 +34,7 @@ module.exports = function (grunt) {
             libs: [
                 config.directories.src + '/extensions/*/lib/**/*',
                 '!' + config.directories.src + '/extensions/*/lib/**/*.proxy.js'
-            ]
+            ]           
         },
 
         copy: {
