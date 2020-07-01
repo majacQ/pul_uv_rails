@@ -5,5 +5,11 @@
           		"dracoDecoderPath": "./lib/"	
        		}	
       	}
+    },
+    "footerPanel": {
+        "options": {
+            "downloadEnabled": false,
+            "shareEnabled": false
+        }
     }
 }
