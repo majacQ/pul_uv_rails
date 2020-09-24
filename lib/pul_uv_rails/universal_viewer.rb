@@ -22,7 +22,7 @@ module PulUvRails
     end
 
     def config_src
-      "/#{viewer_root}/config.json".html_safe
+      "/#{viewer_root}/uv-config.json".html_safe
     end
 
     def viewer_version
