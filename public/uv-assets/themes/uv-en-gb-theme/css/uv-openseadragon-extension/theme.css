@@ -673,7 +673,7 @@
 .uv .centerPanel .content .viewer .openseadragon-container > div:not(.openseadragon-canvas):first {
   display: none;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .centerPanel .content .viewer .openseadragon-container > div:not(.openseadragon-canvas):first {
     display: block;
   }
@@ -744,7 +744,7 @@
 .uv .centerPanel .content .viewer .zoomIn {
   display: none !important;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .centerPanel .content .viewer .zoomIn {
     display: inline-block !important;
     cursor: pointer !important;
@@ -764,7 +764,7 @@
 .uv .centerPanel .content .viewer .zoomOut {
   display: none !important;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .centerPanel .content .viewer .zoomOut {
     display: inline-block !important;
     cursor: pointer !important;
@@ -790,7 +790,7 @@
 .uv .centerPanel .content .viewer .rotate {
   display: none !important;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .centerPanel .content .viewer .rotate {
     display: inline-block !important;
     cursor: pointer !important;
@@ -2730,7 +2730,7 @@ input[type=range]:focus::-ms-fill-upper {
   text-overflow: ellipsis;
   line-height: 30px;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .centerPanel .title {
     padding: 0 20px 0 20px;
   }
@@ -3059,42 +3059,42 @@ input[type=range]:focus::-ms-fill-upper {
     display: block !important;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 0px) {
   .uv #debug #md {
     display: block !important;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 0px) {
   .uv #debug #lg {
     display: block !important;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv #debug #xl {
     display: block !important;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .headerPanel {
     display: block;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .mainPanel .leftPanel {
     display: block;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .mainPanel .rightPanel {
     display: block;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .footerPanel {
     display: block;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 0px) {
   .uv .mobileFooterPanel {
     display: none;
   }
