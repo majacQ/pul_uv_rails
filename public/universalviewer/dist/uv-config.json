@@ -2,12 +2,12 @@
   "options": {
     "dropEnabled": true,
     "footerPanelEnabled": true,
-    "headerPanelEnabled": true,
+    "headerPanelEnabled": false,
     "leftPanelEnabled": true,
     "limitLocales": false,
     "overrideFullScreen": false,
     "pagingEnabled": true,
-    "rightPanelEnabled": true
+    "rightPanelEnabled": false
   },
   "modules": {
     "headerPanel": {
@@ -27,7 +27,7 @@
     },
     "footerPanel": {
       "options": {
-        "downloadEnabled": true
+        "downloadEnabled": false
       }
     }
   }
