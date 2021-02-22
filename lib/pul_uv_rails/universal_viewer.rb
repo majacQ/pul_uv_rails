@@ -13,16 +13,12 @@ module PulUvRails
       end
     end
 
-    def viewer_root
-      'universalviewer/dist'
-    end
-
     def viewer_src
-      "/#{viewer_root}/uv.html".html_safe
+      "/uv.html".html_safe
     end
 
     def config_src
-      "/#{viewer_root}/uv-config.json".html_safe
+      "/uv-config.json".html_safe
     end
 
     def viewer_version
