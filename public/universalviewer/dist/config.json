@@ -1,0 +1,9 @@
+{
+   "modules": {
+     "virtexCenterPanel": {
+       "options": {
+          "dracoDecoderPath": "./lib/"
+       }
+      }
+     }
+   } 
