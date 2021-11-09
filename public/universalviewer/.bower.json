@@ -1,0 +1,13 @@
+{
+  "name": "universalviewer",
+  "homepage": "https://github.com/MorphoSource/universalviewer",
+  "_release": "ae00e7e4fe",
+  "_resolution": {
+    "type": "branch",
+    "branch": "webpack-al-test",
+    "commit": "ae00e7e4fe4360cbcf8fea67deeb729610272377"
+  },
+  "_source": "https://github.com/MorphoSource/universalviewer.git",
+  "_target": "webpack-al-test",
+  "_originalSource": "MorphoSource/universalviewer"
+}
