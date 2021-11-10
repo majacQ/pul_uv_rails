@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "universalviewer": "MorphoSource/universalviewer#al"
+    "universalviewer": "MorphoSource/universalviewer#webpack-al-slideatlas"
   }
 }
