@@ -1,0 +1,60 @@
+/* MorphoSource - disable mobile display */
+
+/* based on https://github.com/UniversalViewer/universalviewer/blob/b2a25697d73d4469621832e744d77b6e784df57b/src/modules/uv-seadragoncenterpanel-module/css/styles.less */
+
+@media screen and (min-width: 0px) {
+
+  /* header */
+  .uv .headerPanel {
+    display: none !important;
+  }
+
+  /* left panel */
+  .uv .mainPanel .leftPanel{
+    display: block !important;
+  }
+
+  /* center panel */
+  .uv .centerPanel .content .viewer img {
+    display: none;
+  }
+
+  .uv .centerPanel .content .viewer .zoomIn.viewportNavButton {
+    display: inline-block !important;
+    cursor: pointer !important;
+    background-image: url("img/zoom_in.png") !important;
+    width: 28px;
+    height: 28px;
+  }
+
+  .uv .centerPanel .content .viewer .zoomOut.viewportNavButton {
+    display: inline-block !important;
+    cursor: pointer !important;
+    background-image: url('img/zoom_out.png') !important;
+    width: 28px;
+    height: 28px;
+  }
+
+  .uv .centerPanel .content .viewer .rotate.viewportNavButton {
+    display: inline-block !important;
+    cursor: pointer !important;
+    background-image: url('img/rotate_right.png') !important;
+    width: 28px;
+    height: 28px;
+  }
+
+  /* footer panel */
+  .uv .footerPanel {
+    display: block !important;
+  }
+
+  .uv .mobileFooterPanel {
+    display: none !important;
+  }
+
+  /* SlideAtlas */
+  .sa-view-canvas-div {
+    background-color: black !important;
+  }
+
+}
